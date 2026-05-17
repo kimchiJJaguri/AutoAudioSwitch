@@ -1,13 +1,13 @@
 using System;
 using System.Threading;
 using System.Windows.Forms;
-using AudioSwitcher;
+using AutoAudioSwitch;
 
-using var mutex = new Mutex(true, "AudioSwitcher_SingleInstance", out bool isNew);
+using var mutex = new Mutex(true, "AutoAudioSwitch_SingleInstance", out bool isNew);
 if (!isNew)
 {
-    MessageBox.Show("AudioSwitcher가 이미 실행 중입니다.",
-                    "AudioSwitcher", MessageBoxButtons.OK, MessageBoxIcon.Information);
+    MessageBox.Show("AutoAudioSwitch가 이미 실행 중입니다.",
+                    "AutoAudioSwitch", MessageBoxButtons.OK, MessageBoxIcon.Information);
     return;
 }
 

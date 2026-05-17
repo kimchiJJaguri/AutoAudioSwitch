@@ -1,4 +1,4 @@
-# AudioSwitcher
+# AutoAudioSwitch
 
 Windows 시스템 트레이에서 오디오 출력 장치를 빠르게 전환하는 가벼운 유틸리티입니다.
 
@@ -9,7 +9,7 @@ Windows 시스템 트레이에서 오디오 출력 장치를 빠르게 전환하
 - **우클릭** — 장치 목록에서 직접 선택
 - **글로벌 단축키** — 키보드만으로 장치 순환 (기본: `Ctrl + Alt + F11`)
 - **단축키 직접 설정** — 설정 창에서 원하는 키 조합으로 변경 가능
-- 설정은 `%AppData%\AudioSwitcher\settings.json`에 자동 저장
+- 설정은 `%AppData%\AutoAudioSwitch\settings.json`에 자동 저장
 
 ## 빌드
 
@@ -19,7 +19,7 @@ Windows 시스템 트레이에서 오디오 출력 장치를 빠르게 전환하
 dotnet publish -c Release
 ```
 
-결과물: `bin\Release\net10.0-windows\win-x64\publish\AudioSwitcher.exe`  
+결과물: `bin\Release\net10.0-windows\win-x64\publish\AutoAudioSwitch.exe`  
 외부 의존성 없는 단독 실행 파일입니다.
 
 ## 기술 스택

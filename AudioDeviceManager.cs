@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace AudioSwitcher;
+namespace AutoAudioSwitch;
 
 internal sealed record AudioDevice(string Id, string Name);
 

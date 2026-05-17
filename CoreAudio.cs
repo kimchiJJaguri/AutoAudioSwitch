@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace AudioSwitcher;
+namespace AutoAudioSwitch;
 
 internal enum EDataFlow { eRender = 0, eCapture = 1, eAll = 2 }
 internal enum ERole   { eConsole = 0, eMultimedia = 1, eCommunications = 2 }

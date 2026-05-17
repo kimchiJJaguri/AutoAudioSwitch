@@ -2,7 +2,7 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace AudioSwitcher;
+namespace AutoAudioSwitch;
 
 internal sealed class SettingsForm : Form
 {
@@ -24,7 +24,7 @@ internal sealed class SettingsForm : Form
         _settings = settings;
 
         // ── 폼 기본 설정 ──────────────────────────────────────────────────
-        Text            = "AudioSwitcher 설정";
+        Text            = "AutoAudioSwitch 설정";
         ClientSize      = new Size(420, 195);
         FormBorderStyle = FormBorderStyle.FixedDialog;
         MaximizeBox     = false;

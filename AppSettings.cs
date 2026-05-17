@@ -4,7 +4,7 @@ using System.IO;
 using System.Text.Json;
 using System.Windows.Forms;
 
-namespace AudioSwitcher;
+namespace AutoAudioSwitch;
 
 internal sealed class AppSettings
 {
@@ -19,7 +19,7 @@ internal sealed class AppSettings
 
     private static readonly string FilePath = Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
-        "AudioSwitcher", "settings.json");
+        "AutoAudioSwitch", "settings.json");
 
     public static AppSettings Load()
     {

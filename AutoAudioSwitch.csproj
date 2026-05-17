@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <AssemblyName>AutoAudioSwitch</AssemblyName>
     <Optimize>true</Optimize>
 
     <!-- 단독 exe 빌드 설정 -->

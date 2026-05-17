@@ -4,7 +4,7 @@ using System.Drawing.Drawing2D;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace AudioSwitcher;
+namespace AutoAudioSwitch;
 
 internal sealed class TrayApp : Form
 {
@@ -29,7 +29,7 @@ internal sealed class TrayApp : Form
     {
         _settings = settings;
 
-        Text            = "AudioSwitcher";
+        Text            = "AutoAudioSwitch";
         ShowInTaskbar   = false;
         WindowState     = FormWindowState.Minimized;
         FormBorderStyle = FormBorderStyle.None;
