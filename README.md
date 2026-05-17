@@ -1,3 +1,4 @@
+> 🇰🇷 [한국어 버전 보기](README.ko.md)
 # 🔊 AutoAudioSwitch
 
 > A lightweight Windows utility that lets you switch audio output devices instantly from the system tray.
