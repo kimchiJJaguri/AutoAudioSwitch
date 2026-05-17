@@ -1,0 +1,5 @@
+bin/
+obj/
+*.user
+.vs/
+빌드방법.md
